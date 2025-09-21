@@ -548,6 +548,9 @@ foreign plutovg {
 	@(link_name = "plutovg_surface_get_reference_count")
 	surface_get_reference_count :: proc(surface: ^plutovg_surface_t) -> c.int ---
 
+	@(link_name = "plutovg_surface_get_data")
+	surface_get_data :: proc(surface: ^plutovg_surface_t) -> ^c.uchar ---
+
 	@(link_name = "plutovg_surface_get_stride")
 	surface_get_stride :: proc(surface: ^plutovg_surface_t) -> c.int ---
 
