@@ -3,7 +3,7 @@ package odin_plutovg
 import "core:c"
 
 when ODIN_OS == .Linux {
-	foreign import plutovg "../../lib/linuxbsd/libplutovg.a"
+	foreign import plutovg "../../lib/linux/libplutovg.a"
 } else {
 	#panic(true)
 }

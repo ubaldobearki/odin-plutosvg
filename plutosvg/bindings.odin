@@ -3,7 +3,7 @@ package odin_plutosvg
 import "core:c"
 
 when ODIN_OS == .Linux {
-    foreign import plutosvg "../lib/linuxbsd/libplutosvg.a"
+    foreign import plutosvg "../lib/linux/libplutosvg.a"
 } else {
     #panic(true)
 }
