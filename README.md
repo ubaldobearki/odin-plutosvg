@@ -1,14 +1,14 @@
 # odin-plutosvg
 
-[odin](https://github.com/odin-lang/Odin) bindings for the [PlutoSVG](https://github.com/sammycage/plutosvg) SVG library ([PlutoVG](https://github.com/sammycage/plutovg) bindings included!)
+[Odin](https://github.com/odin-lang/Odin) bindings for the [PlutoSVG](https://github.com/sammycage/plutosvg) and [PlutoVG](https://github.com/sammycage/plutovg) graphics libraries.
 
 > [!IMPORTANT]  
 > This bindings are an alpha release and still being tested, make sure to submit a PR if you encountered any issues!
 
 ## Supported Platforms
 - [x] Linux
+- [ ] Windows (Almost there!)
 - [ ] MacOS (In the works!)
-- [ ] Windows (In the works!)
 
 ## Example
 ```odin
